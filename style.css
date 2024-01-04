@@ -139,6 +139,9 @@ section{
      font-size: small;
      letter-spacing: 1px;
 }
+.myphoto{
+    margin-left:200px;
+}
 .projects{
      background-color: rgb(199, 205, 233);
 }
