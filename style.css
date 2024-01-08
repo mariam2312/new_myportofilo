@@ -51,12 +51,15 @@ section{
     color: white;
     font-weight: 500px;
     font-size: 1.4em;
+    margin-right: 10px;
 }
 .main h1{
     color: rgb(52, 181, 241);
     font-size: 3em;
     font-weight: 600px;
     margin: 10px;
+    margin-right: 20px;
+
 }
 .main h3{
     color: white;
@@ -139,9 +142,7 @@ section{
      font-size: small;
      letter-spacing: 1px;
 }
-.myphoto{
-    margin-left:200px;
-}
+
 .projects{
      background-color: rgb(199, 205, 233);
 }
@@ -252,7 +253,23 @@ section{
         flex-direction: column;
         align-items: center;
     }
+    
+    .myphoto{
+        display: block;
+        height:200px;
+        scale: 1.5;
+        margin-right: 50px;
+        margin-left: 10px;
+    }
 
+}
+@media (min-width:1032px){
+    .myphoto{
+        display: block;
+        height:200px;
+        scale: 1.8;
+        margin-left: 200px;
+    }
 }
 
 @media (max-width:641px){
@@ -267,11 +284,26 @@ section{
     .main-content h3{
         font-size: 1.4em;
     }
+    .myphoto{
+        display: block;
+        height:200px;
+        scale: 1;
+        margin-right: 50px;
+        margin-left: 10px;
+    }
+    
 }
 
 @media (max-width:300px){
     body{
         font-size: 10px;
      
+    }
+    .myphoto{
+        display: block;
+        height:200px;
+        scale: 0.5;
+        margin-right: 50px;
+        margin-left: 10px;
     }
 }
